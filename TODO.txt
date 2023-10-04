@@ -1,0 +1,15 @@
+Current projects in the works:
+
+Guitar Auto-Tuner Prototype 1 (Note Detection):
+    *Parts ordered and mic-op amp- DC offeset- ADC circuit assembled. Needs testing on Arduino UNO. 
+    *Eventual plans to port to BBB.
+
+Plant pot soil humidity detector:
+    *Just need to order the detector and an Arduino nano or Adafruit feather. Detector uses I2C.
+    *Would take 20min to get working
+    *Need to decide where to send the data. Could integrate into an IOT hub and post it to an apache web server on a BBB. 
+    *Opens up room for more IOT projects.
+
+Autonomous Steering of Electric Skateboard
+    *Need to interface with Vedder Electronic Speed Controller using https://github.com/SolidGeek/VescUart.git
+    *Make sure each motor can be throttled independantly using SolidGeek's library.
